@@ -12,7 +12,7 @@ while 'Y' in ans or 'y' in ans:
         print("{0} is Odd".format(num))
     ans = input("Do you want to continue? Y/N ")
 
-while 'N' in ans or 'n' in ans:
+while 'N' in ans or 'n' in ans: #could also use 'if' in place of 'while'
     print('That\'s too bad. :(\nGoodbye.')
     exit()
 
